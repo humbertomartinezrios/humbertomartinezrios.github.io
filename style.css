@@ -139,3 +139,46 @@ header a:hover {
     text-decoration: none;
     opacity: 0.85;
 }
+
+
+/* ===== ACERCA DE MÍ ===== */
+
+#about {
+    border-top: 1px solid #e5e7eb;
+}
+
+#about p {
+    max-width: 900px;
+    font-size: 1.05rem;
+}
+
+
+/* ===== HABILIDADES ===== */
+
+#skills {
+    border-top: 1px solid #e5e7eb;
+}
+
+#skills > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin-right: 4%;
+    padding: 24px;
+    background-color: #f7f9fb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+#skills > div:last-child {
+    margin-right: 0;
+}
+
+#skills h3 {
+    margin-top: 0;
+    color: #1769aa;
+}
+
+#skills p {
+    margin-bottom: 0;
+}
