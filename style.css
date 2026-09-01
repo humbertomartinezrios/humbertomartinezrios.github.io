@@ -299,4 +299,27 @@ header a:hover {
         max-width: 100%;
         margin: 0 auto;
     }
+
+    section {
+        padding: 42px 0;
+    }
+
+    section > h2 {
+        font-size: 1.75rem;
+        margin-bottom: 20px;
+    }
+
+    #projects article h3 {
+        font-size: 1.35rem;
+    }
+
+    #projects article p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    #projects article a {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
 }
