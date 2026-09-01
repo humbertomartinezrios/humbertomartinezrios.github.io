@@ -159,10 +159,6 @@ header a:hover {
 
 /* ===== HABILIDADES ===== */
 
-#skills {
-    border-top: 1px solid #e5e7eb;
-}
-
 #skills > div {
     display: inline-block;
     vertical-align: top;
@@ -172,6 +168,12 @@ header a:hover {
     background-color: #f7f9fb;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#skills > div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 #skills > div:last-child {
