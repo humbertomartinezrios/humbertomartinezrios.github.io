@@ -231,3 +231,23 @@ header a:hover {
     color: #ffffff;
     text-decoration: none;
 }
+
+
+/* ===== DISTRIBUCIÓN DE PROYECTOS ===== */
+
+.project-content {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.project-info {
+    min-width: 0;
+}
+
+.project-content img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
