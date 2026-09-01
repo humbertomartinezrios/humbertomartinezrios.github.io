@@ -71,3 +71,71 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+/* ===== NAVEGACIÓN ===== */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 22px 32px;
+}
+
+nav a {
+    margin-left: 28px;
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #1769aa;
+    text-decoration: none;
+}
+
+
+/* ===== INICIO ===== */
+
+header {
+    padding: 90px 32px 100px;
+}
+
+header h1 {
+    font-size: 3.4rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #1769aa;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+header p {
+    max-width: 780px;
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+
+header a {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 11px 20px;
+    border: 1px solid #1769aa;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+header a:first-of-type {
+    background-color: #1769aa;
+    color: #ffffff;
+}
+
+header a:hover {
+    text-decoration: none;
+    opacity: 0.85;
+}
