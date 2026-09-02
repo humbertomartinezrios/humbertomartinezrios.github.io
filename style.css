@@ -342,7 +342,7 @@ footer p {
 
     .project-content {
         grid-template-columns: 1fr;
-        gap: 28px;
+        gap: 18px;
     }
 
     #projects article {
