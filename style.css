@@ -328,6 +328,11 @@ footer p {
         padding: 0 24px;
     }
 
+    #about p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    }
+
     #skills > div {
         display: block;
         width: 100%;
