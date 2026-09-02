@@ -192,25 +192,24 @@ header a:hover {
 
 /* ===== PROYECTOS ===== */
 
-#projects {
-    border-top: 1px solid #e5e7eb;
-}
-
 #projects article {
     margin-bottom: 48px;
     padding: 32px;
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 #projects article h3 {
     margin-top: 0;
     font-size: 1.6rem;
+    margin-bottom: 20px;
 }
 
 #projects article p {
     max-width: 900px;
+    line-height: 1.7;
 }
 
 #projects article img {
@@ -220,6 +219,7 @@ header a:hover {
     max-height: 500px;
     object-fit: contain;
     margin: 28px auto;
+    border-radius: 6px;
 }
 
 #projects article a {
@@ -230,6 +230,7 @@ header a:hover {
     border: 1px solid #1769aa;
     border-radius: 6px;
     font-weight: 600;
+    transition: all 0.2s ease;
 }
 
 #projects article a:hover {
