@@ -308,7 +308,7 @@ footer p {
     nav {
         justify-content: center;
         flex-wrap: wrap;
-        gap: 12px 20px;
+        gap: 10px 16px;
         padding: 18px 20px;
     }
 
